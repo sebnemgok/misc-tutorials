@@ -5,3 +5,25 @@ format: html
 editor: visual
 ---
 
+# Introduction
+
+The purpose of thie tutorial is to give a detailed information on idenitfying batch effectes and how to remove them.
+
+# Methods
+
+## Data
+
+To download the raw affymetryx data, [use this link](https://ndownloader.figshare.com/files/4862323) and save it.
+
+First create a `data` folder:
+
+```bash
+mkdir data
+```
+
+Save the affymetrix CEL files in the data
+
+```{r}
+
+```
+

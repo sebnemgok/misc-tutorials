@@ -31,4 +31,14 @@ We will use these libraries:
 library(affy)
 ```
 
+## Preprocess data
+
+Load the affmetryx files:
+
+```{r}
+tab=read.csv("data/bladdertab.csv", as.is=TRUE)
+eset=justRMA(filenames=tab$filename, celfile.path="data/")
+```
+
+
 

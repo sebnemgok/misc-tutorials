@@ -40,8 +40,5 @@ Load the affmetryx files:
 tab=read.csv("data/bladdertab.csv", as.is=TRUE)
 eset=justRMA(filenames=tab$filename, celfile.path="data/")
 ```
-## Obtaining the gene expression matrix
-
-## obtaining R objects
 
 

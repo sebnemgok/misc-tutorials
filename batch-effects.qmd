@@ -23,7 +23,12 @@ mkdir data
 
 Save the affymetrix CEL files in the data
 
-```{r}
+## Libraries
 
+We will use these libraries:
+
+```{r}
+library(affy)
 ```
+
 

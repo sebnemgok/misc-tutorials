@@ -63,6 +63,14 @@ batch=dates-min(dates);
 batch=as.numeric(cut(batch,c(-1,10,75,200,300,500))) 
 ```
 
+## obtaining the R object
+
+```{r} 
+save(mat,outcome,batch,dates,file="bladder-cancer.rda")
+```
+
+
+
 
 
 
